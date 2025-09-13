@@ -4,12 +4,12 @@ spring:
 
   flyway:
     locations: classpath:db/migration
-    url: jdbc:postgresql://localhost:35432/accounts_db
+    url: jdbc:postgresql://accounts-postgres:35432/accounts_db
     user: postgres
     password: postgres
 
   r2dbc:
-    url: r2dbc:postgresql://localhost:35432/accounts_db
+    url: r2dbc:postgresql://accounts-postgres:35432/accounts_db
     username: postgres
     password: postgres
 
