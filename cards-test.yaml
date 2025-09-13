@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: cards
+
+  r2dbc:
+    url: r2dbc:postgresql://localhost:45432/cards_db
+    username: postgres
+    password: postgres
+
+logging:
+  level:
+    org.springframework.data.r2dbc.core: DEBUG
+    io.r2dbc.postgresql.QUERY: DEBUG
+    io.r2dbc.postgresql.PARAM: DEBUG
+
+server:
+  port: 80

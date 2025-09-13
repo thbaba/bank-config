@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: cards
+  flyway:
+    url: jdbc:postgresql://localhost:45432/cards_db
+    user: postgres
+    password: postgres
+
+  r2dbc:
+    url: r2dbc:postgresql://localhost:45432/cards_db
+    username: postgres
+    password: postgres
+
+server:
+  port: 80
