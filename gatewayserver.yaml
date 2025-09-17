@@ -11,12 +11,9 @@ spring:
               lower-case-service-id: true
 
 management:
-  endpoints:
-    web:
-      exposure:
-        include:
-          - gateway
-          - health
+  endpoint:
+    gateway:
+      enabled: true
 
 server:
   port: 80
