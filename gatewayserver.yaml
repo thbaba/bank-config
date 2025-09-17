@@ -8,6 +8,11 @@ spring:
           enabled: true
           lower-case-service-id: true
 
+management:
+  endpoint:
+    gateway:
+      enabled=true:
+
 server:
   port: 80
 
