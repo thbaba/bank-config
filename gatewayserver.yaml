@@ -14,7 +14,9 @@ management:
   endpoints:
     web:
       exposure:
-        include: gateway
+        include:
+          - gateway
+          - health
 
 server:
   port: 80
