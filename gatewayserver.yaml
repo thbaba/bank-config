@@ -11,7 +11,7 @@ spring:
 management:
   endpoint:
     gateway:
-      enabled=true:
+      enabled=true
 
 server:
   port: 80
