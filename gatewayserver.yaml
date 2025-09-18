@@ -9,14 +9,8 @@ spring:
             locator:
               enabled: false
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "gateway,health"
-
 server:
-  port: 3004
+  port: 80
 
 eureka:
   instance:
@@ -25,4 +19,4 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl:
-      defaultZone: "http://localhost:3003/eureka"
+      defaultZone: "http://discoveryserver-ms/eureka"
