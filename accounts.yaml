@@ -27,12 +27,3 @@ eureka:
     fetch-registry: true
     serviceUrl:
       defaultZone: "http://discoveryserver-ms/eureka"
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: *
-    endpoint:
-      circuitbreakerevents:
-        enabled: true
