@@ -3,13 +3,13 @@ spring:
     name: cards
 
   flyway:
-    url: "jdbc:postgresql://cards-postgres:5432/cards_db"
+    url: "jdbc:postgresql://localhost:5001/cards_db"
     locations: classpath:db/migration
     user: postgres
     password: "{cipher}AgBiBlmdrw+PN+cR7VwC1CwnTuOiXKl3HgH0sKtS9GrggjRnMJFxQD8RzeUtGFq/gdKIoC29GZJFY/xvMXOkcp+r5hzK41Mihp6L37F/Rke6lL8GyPuck8b7iLB5vRPGN+tn95KqpbPWQP0H6gDlDZTcX2gRDOwGAAo0DmjRCdpnWczNx3sZKJlfjROcDypH1GIKJQpQogVD0a4c+P4CcBmi8BCIRTCITIs3dL9oqv3jlNHxuIRtRGFJn3URJuIQb5hXorpsb9rv/cGj5Dp5l5iOLDb+Vg593+f5pasIRVJppDa65i/uCWRfRCMQzjE9LgQjhWX0N7m70iKoyTEKLzOVEUdjRVD8FpC2Ldm9GX8XUj5MUB3TIaMfKm3Yxbfw46ZWHULQbqE7XtAjatAKKphX9ltkihTmyV7UuOT7N1iqFakhLBlrzStN7UpYfAJIJSL4K9QW3rPLqRdJsvp14oFHVZxInxnDd1aM81NtZf6ycz+0eapLHFu3lVTPuFpSnEdHIO5v1VmUiKzfx5UDo7lJR1rnIOGFhC3cWrlbIGcIsDcYF8sk2pSt6XnUm8H1c0kI0OubSp8sTNnXU6g//IEjgrXz+wqsi4cC7EZ5fpOsMvq2D4EuHHZxgwM+RO3KDTFgwEOz6DQH7IID8M27XTKV5xH2wJ5vroOHH0jQtVkX4wlOLXSSVBd5jw09+IirGcH7hNVT6n6i4YzIt8v81eGJ"
 
   r2dbc:
-    url: "r2dbc:postgresql://cards-postgres:5432/cards_db"
+    url: "r2dbc:postgresql://localhost:5001/cards_db"
     username: postgres
     password: "{cipher}AgBiBlmdrw+PN+cR7VwC1CwnTuOiXKl3HgH0sKtS9GrggjRnMJFxQD8RzeUtGFq/gdKIoC29GZJFY/xvMXOkcp+r5hzK41Mihp6L37F/Rke6lL8GyPuck8b7iLB5vRPGN+tn95KqpbPWQP0H6gDlDZTcX2gRDOwGAAo0DmjRCdpnWczNx3sZKJlfjROcDypH1GIKJQpQogVD0a4c+P4CcBmi8BCIRTCITIs3dL9oqv3jlNHxuIRtRGFJn3URJuIQb5hXorpsb9rv/cGj5Dp5l5iOLDb+Vg593+f5pasIRVJppDa65i/uCWRfRCMQzjE9LgQjhWX0N7m70iKoyTEKLzOVEUdjRVD8FpC2Ldm9GX8XUj5MUB3TIaMfKm3Yxbfw46ZWHULQbqE7XtAjatAKKphX9ltkihTmyV7UuOT7N1iqFakhLBlrzStN7UpYfAJIJSL4K9QW3rPLqRdJsvp14oFHVZxInxnDd1aM81NtZf6ycz+0eapLHFu3lVTPuFpSnEdHIO5v1VmUiKzfx5UDo7lJR1rnIOGFhC3cWrlbIGcIsDcYF8sk2pSt6XnUm8H1c0kI0OubSp8sTNnXU6g//IEjgrXz+wqsi4cC7EZ5fpOsMvq2D4EuHHZxgwM+RO3KDTFgwEOz6DQH7IID8M27XTKV5xH2wJ5vroOHH0jQtVkX4wlOLXSSVBd5jw09+IirGcH7hNVT6n6i4YzIt8v81eGJ"
 
