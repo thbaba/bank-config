@@ -6,7 +6,7 @@ spring:
     url: "r2dbc:postgresql://localhost:5001/cards_db"
 
 server:
-  port: 3002
+  port: 3001
 
 eureka:
   client:
