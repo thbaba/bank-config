@@ -33,3 +33,9 @@ management:
     web:
       exposure:
         include: "*"
+
+logging:
+  level:
+    org.springframework.r2dbc: debug
+
+debug: true
