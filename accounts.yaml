@@ -36,6 +36,6 @@ management:
 
 logging:
   level:
-    org.springframework.r2dbc: debug
+    org.springframework.r2dbc.core.DatabaseClient: Debug
 
 debug: true
