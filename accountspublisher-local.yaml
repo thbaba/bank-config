@@ -1,0 +1,6 @@
+spring:
+  r2dbc:
+    url: "r2dbc:postgresql://localhost:5000/accounts_db"
+
+server:
+  port: 3005
