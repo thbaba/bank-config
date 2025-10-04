@@ -10,7 +10,7 @@ spring:
               enabled: false
 
 server:
-  port: 3004
+  port: 3005
 
 eureka:
   instance:
